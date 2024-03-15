@@ -11,9 +11,7 @@ struct MainPage: View {
 @ObservedObject var searchResponseVM = SearchResponseViewModel()
 //Search
 @State var searchText = ""
-
 @State var errorMessage = ""
-
 @StateObject var networkingClass = NetworkingClass()
 
 var body: some View {
