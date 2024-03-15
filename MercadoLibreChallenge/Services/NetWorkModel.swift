@@ -50,7 +50,6 @@ extension NetworkError: LocalizedError {
     }
 }
 
-
 // Define the types of HTTP request that we are going to handle
 enum HTTPMethod: String {
     case get = "GET"

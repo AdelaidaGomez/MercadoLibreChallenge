@@ -31,13 +31,6 @@
 			remoteGlobalIDString = 0FC4847D2BA46DF900FDDFA2;
 			remoteInfo = MercadoLibreChallenge;
 		};
-		0FC484992BA46DFB00FDDFA2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0FC484762BA46DF900FDDFA2 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0FC4847D2BA46DF900FDDFA2;
-			remoteInfo = MercadoLibreChallenge;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +40,6 @@
 		0FC484852BA46DFA00FDDFA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FC484882BA46DFA00FDDFA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0FC4848E2BA46DFB00FDDFA2 /* MercadoLibreChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MercadoLibreChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FC484982BA46DFB00FDDFA2 /* MercadoLibreChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MercadoLibreChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC484AB2BA46E2500FDDFA2 /* RequestHttpTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHttpTest.swift; sourceTree = "<group>"; };
 		0FC484B12BA46E7800FDDFA2 /* NetworkingClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingClass.swift; sourceTree = "<group>"; };
 		0FC484B32BA46E9400FDDFA2 /* NetWorkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkModel.swift; sourceTree = "<group>"; };
@@ -76,13 +68,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0FC484952BA46DFB00FDDFA2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -100,7 +85,6 @@
 			children = (
 				0FC4847E2BA46DF900FDDFA2 /* MercadoLibreChallenge.app */,
 				0FC4848E2BA46DFB00FDDFA2 /* MercadoLibreChallengeTests.xctest */,
-				0FC484982BA46DFB00FDDFA2 /* MercadoLibreChallengeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -212,24 +196,6 @@
 			productReference = 0FC4848E2BA46DFB00FDDFA2 /* MercadoLibreChallengeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0FC484972BA46DFB00FDDFA2 /* MercadoLibreChallengeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0FC484A82BA46DFB00FDDFA2 /* Build configuration list for PBXNativeTarget "MercadoLibreChallengeUITests" */;
-			buildPhases = (
-				0FC484942BA46DFB00FDDFA2 /* Sources */,
-				0FC484952BA46DFB00FDDFA2 /* Frameworks */,
-				0FC484962BA46DFB00FDDFA2 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0FC4849A2BA46DFB00FDDFA2 /* PBXTargetDependency */,
-			);
-			name = MercadoLibreChallengeUITests;
-			productName = MercadoLibreChallengeUITests;
-			productReference = 0FC484982BA46DFB00FDDFA2 /* MercadoLibreChallengeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -244,10 +210,6 @@
 						CreatedOnToolsVersion = 15.3;
 					};
 					0FC4848D2BA46DFB00FDDFA2 = {
-						CreatedOnToolsVersion = 15.3;
-						TestTargetID = 0FC4847D2BA46DF900FDDFA2;
-					};
-					0FC484972BA46DFB00FDDFA2 = {
 						CreatedOnToolsVersion = 15.3;
 						TestTargetID = 0FC4847D2BA46DF900FDDFA2;
 					};
@@ -268,7 +230,6 @@
 			targets = (
 				0FC4847D2BA46DF900FDDFA2 /* MercadoLibreChallenge */,
 				0FC4848D2BA46DFB00FDDFA2 /* MercadoLibreChallengeTests */,
-				0FC484972BA46DFB00FDDFA2 /* MercadoLibreChallengeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,13 +245,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		0FC4848C2BA46DFB00FDDFA2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0FC484962BA46DFB00FDDFA2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,13 +280,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0FC484942BA46DFB00FDDFA2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -340,11 +287,6 @@
 			isa = PBXTargetDependency;
 			target = 0FC4847D2BA46DF900FDDFA2 /* MercadoLibreChallenge */;
 			targetProxy = 0FC4848F2BA46DFB00FDDFA2 /* PBXContainerItemProxy */;
-		};
-		0FC4849A2BA46DFB00FDDFA2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0FC4847D2BA46DF900FDDFA2 /* MercadoLibreChallenge */;
-			targetProxy = 0FC484992BA46DFB00FDDFA2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -568,42 +510,6 @@
 			};
 			name = Release;
 		};
-		0FC484A92BA46DFB00FDDFA2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JDS29A6HNM;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.AdelaidaGomez.MercadoLibreChallengeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MercadoLibreChallenge;
-			};
-			name = Debug;
-		};
-		0FC484AA2BA46DFB00FDDFA2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = JDS29A6HNM;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.AdelaidaGomez.MercadoLibreChallengeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MercadoLibreChallenge;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -630,15 +536,6 @@
 			buildConfigurations = (
 				0FC484A62BA46DFB00FDDFA2 /* Debug */,
 				0FC484A72BA46DFB00FDDFA2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0FC484A82BA46DFB00FDDFA2 /* Build configuration list for PBXNativeTarget "MercadoLibreChallengeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0FC484A92BA46DFB00FDDFA2 /* Debug */,
-				0FC484AA2BA46DFB00FDDFA2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
